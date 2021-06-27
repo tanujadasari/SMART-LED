@@ -1,0 +1,13 @@
+//BLINKY LED ARDUINO IDE CODE BY TANUJA DASARI
+void setup()
+{
+  pinMode(13, OUTPUT);//positive terminal of LED is connected to Pin No 13 in Arduino UNO board
+}
+
+void loop()
+{
+  digitalWrite(13, HIGH);// LED turns ON
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(13, LOW);// LED turns OFF
+  delay(1000); // Wait for 1000 millisecond(s)
+}
